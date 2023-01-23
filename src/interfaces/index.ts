@@ -11,8 +11,16 @@ export interface IRequestCalculator {
   day90?: number | string;
 }
 
+export interface IResponseCalculator {
+  1?: number;
+  15?: number;
+  30?: number;
+  90?: number;
+}
+
 export interface ICalculatorContext {
   calculator: (data: IRequestCalculator) => void;
+  response: IResponseCalculator;
 }
 
 export interface ICalculatorProps {
