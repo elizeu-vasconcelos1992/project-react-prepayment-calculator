@@ -50,7 +50,7 @@ export default function CalculatorProvider({ children }: ICalculatorProps) {
       }
       if (err.response.status === 408) {
         setModalError(
-          "Servidor está demorando para processar a requisição ( HTTP Error 408)"
+          "Servidor está demorando para processar a requisição (HTTP Error 408)"
         );
         closeModal();
         return;
