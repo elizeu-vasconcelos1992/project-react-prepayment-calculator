@@ -18,7 +18,7 @@ export default function CalculatorProvider({ children }: ICalculatorProps) {
   function calculator(data: IRequestCalculator) {
     setModal("load");
     api
-      .post("?timeout", data)
+      .post("", data)
       .then(res => {
         setModal("success");
         setModalSuccess("Sucesso");
