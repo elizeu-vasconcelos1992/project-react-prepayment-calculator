@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# Calculadora para simulação de antecipação de recebimentos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
 
-## Available Scripts
+<h1>🔗 LINK</h1>
 
-In the project directory, you can run:
+<a href="https://project-movie-collection-frontend.vercel.app/" target="_blank">DEPLOY DA CALCULADORA</a>
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h1>🔨 RECURSOS</h1>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br>
 
-### `yarn test`
+<p>A calculadora para simulação de antecipação de recebimentos é uma aplicação que permite ao usuário verificar os valores que pode antecipar junto ao seu banco. Nela existem três campos obrigatórios, são eles: "Informe o valor da renda", "Quantidade de parcelas" e "Percentual MDR". Além disso, como parte opcional, o usuário pode escolher para qual período quer simular, existindo as opções de "Amanhã", 15, 30 e 90 dias. Caso nenhum período seja marcado, é retornado uma lista contendo todos os períodos disponíveis.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `yarn build`
+<div style="display:flex; justify-content:center">
+<img width="80%" src="./src/assets/dashboard.gif">
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p>Também, a aplicação conta a visualização de possíveis erros que podem ocorrer, tanto do lado do servidor quanto do cliente. Falha na conexão com a internet, demora no processamento ou erro interno do servidor, entre outros, são exemplos de erros que a aplicação pode demonstrar.</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `yarn eject`
+<div style="display:flex; justify-content:center">
+<img width="80%" src="./src/assets/dashboard2.gif">
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h1>🚀 TECNOLOGIAS</h1>
+<ul>
+<li>TYPESCRIPT</li>
+<li>REACT</li>
+<li>CONTEXT-API</li>
+<li>CONSUMO DE API</li>
+<li>AXIOS</li>
+<li>REACT-HOOK-FORM</li>
+<li>YUP VALIDATION</li>
+<li>STYLED-COMPONENTS</li>
+<li>DEPLOY VERCEL</li>
+</ul>
