@@ -4,7 +4,7 @@
 
 <h1>🔗 LINK</h1>
 
-<a href="https://project-movie-collection-frontend.vercel.app/" target="_blank">DEPLOY DA CALCULADORA</a>
+<a href="https://project-react-prepayment-calculator.vercel.app/" target="_blank">DEPLOY DA CALCULADORA</a>
 
 <br>
 
