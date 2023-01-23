@@ -21,6 +21,9 @@ export interface IResponseCalculator {
 export interface ICalculatorContext {
   calculator: (data: IRequestCalculator) => void;
   response: IResponseCalculator;
+  modal: string;
+  modalSuccess: string;
+  modalError: string;
 }
 
 export interface ICalculatorProps {

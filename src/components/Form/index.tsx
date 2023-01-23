@@ -64,7 +64,7 @@ export default function Form() {
       </label>
       <label>
         Percentual MDR
-        <input type='number' placeholder='Ex.: 70' {...register("mdr")} />
+        <input type='number' placeholder='Ex.: 3' {...register("mdr")} />
         <p>{errors.mdr?.message}</p>
       </label>
       <label>Períodos (opcional)</label>
